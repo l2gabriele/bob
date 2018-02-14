@@ -13,3 +13,4 @@ json: "build": "./node_modules/webpack/bin/webpack.js"
 
 npm install webpack --save
 npm run build
+touch webpack.config.js
