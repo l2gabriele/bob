@@ -23,7 +23,7 @@ margin: 10px;
   padding-top: 60px;
   overflow-x: hidden;
 }
-.navBar a {
+.navBar #btnOne {
   padding: 10px 10px 15px 35px;
   font-size: 25px;
   color: black;
@@ -31,7 +31,15 @@ margin: 10px;
   transition: 0.3;
   text-decoration: none;
 }
-.btn {
+.navBar #btnTwo {
+  padding: 10px 10px 15px 35px;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3;
+  text-decoration: none;
+}
+#open-btn {
   border: none;
   background-color: black;
   font-family: cursive;
@@ -52,6 +60,8 @@ margin: 10px;
 }
 .navBar #close-btn {
   position:absolute;
+  text-decoration: none;
+  color: black;
   top: 0;
   right: 25px;
   font-size: 35px;
